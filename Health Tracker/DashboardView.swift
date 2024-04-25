@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DashboardView.swift
 //  Health Tracker
 //
 //  Created by Andres Made on 4/25/24.
@@ -20,7 +20,7 @@ enum HealthMetrixContext: CaseIterable, Identifiable {
     }
 }
 
-struct ContentView: View {
+struct DashboardView: View {
     @State private var selectedStat: HealthMetrixContext = .steps
     var isSteps: Bool {selectedStat == .steps}
     
@@ -80,12 +80,11 @@ struct ContentView: View {
                             .fill(Color(Color(.secondarySystemBackground)))
                     )
                 }
-                
             }
             .padding()
             .navigationTitle("Dashboard")
             .navigationDestination(for: HealthMetrixContext.self) { metric in
-                Text(metric.title)
+                HealthDataListView(metric: metric)
             }
         }
         .tint(isSteps ? .pink : .indigo)
@@ -93,5 +92,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    DashboardView()
 }
