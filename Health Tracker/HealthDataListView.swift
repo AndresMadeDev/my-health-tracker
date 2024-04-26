@@ -36,7 +36,6 @@ struct HealthDataListView: View {
         }
         .sheet(isPresented: $isShowingAddData) {
            addDetailview
-                
         }
     }
     var addDetailview: some View {
