@@ -12,6 +12,7 @@
 		C16721222BDABE4600750D5B /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16721212BDABE4600750D5B /* DashboardView.swift */; };
 		C16721242BDABE4900750D5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16721232BDABE4900750D5B /* Assets.xcassets */; };
 		C16721272BDABE4900750D5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16721262BDABE4900750D5B /* Preview Assets.xcassets */; };
+		C1E5572A2BDB2EC400132AB9 /* HealthKitPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E557292BDB2EC400132AB9 /* HealthKitPermissionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C16721212BDABE4600750D5B /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		C16721232BDABE4900750D5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C16721262BDABE4900750D5B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1E557292BDB2EC400132AB9 /* HealthKitPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				C167211F2BDABE4600750D5B /* Health_TrackerApp.swift */,
+				C1E557292BDB2EC400132AB9 /* HealthKitPermissionView.swift */,
 				C16721212BDABE4600750D5B /* DashboardView.swift */,
 				C166BA672BDAD16C00C373F0 /* HealthDataListView.swift */,
 				C16721232BDABE4900750D5B /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			files = (
 				C166BA682BDAD16C00C373F0 /* HealthDataListView.swift in Sources */,
 				C16721222BDABE4600750D5B /* DashboardView.swift in Sources */,
+				C1E5572A2BDB2EC400132AB9 /* HealthKitPermissionView.swift in Sources */,
 				C16721202BDABE4600750D5B /* Health_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
