@@ -14,6 +14,7 @@
 		C16721272BDABE4900750D5B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C16721262BDABE4900750D5B /* Preview Assets.xcassets */; };
 		C1E5572A2BDB2EC400132AB9 /* HealthKitPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E557292BDB2EC400132AB9 /* HealthKitPermissionView.swift */; };
 		C1E5572D2BDB58DE00132AB9 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5572C2BDB58DE00132AB9 /* HealthKitManager.swift */; };
+		C1E5577B2BE12F0800132AB9 /* HealthMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E5577A2BE12F0800132AB9 /* HealthMetrics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		C1E557292BDB2EC400132AB9 /* HealthKitPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionView.swift; sourceTree = "<group>"; };
 		C1E5572B2BDB55FC00132AB9 /* Health Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Health Tracker.entitlements"; sourceTree = "<group>"; };
 		C1E5572C2BDB58DE00132AB9 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		C1E5577A2BE12F0800132AB9 /* HealthMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetrics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				C16721212BDABE4600750D5B /* DashboardView.swift */,
 				C166BA672BDAD16C00C373F0 /* HealthDataListView.swift */,
 				C1E5572C2BDB58DE00132AB9 /* HealthKitManager.swift */,
+				C1E5577A2BE12F0800132AB9 /* HealthMetrics.swift */,
 				C16721232BDABE4900750D5B /* Assets.xcassets */,
 				C16721252BDABE4900750D5B /* Preview Content */,
 			);
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C166BA682BDAD16C00C373F0 /* HealthDataListView.swift in Sources */,
+				C1E5577B2BE12F0800132AB9 /* HealthMetrics.swift in Sources */,
 				C16721222BDABE4600750D5B /* DashboardView.swift in Sources */,
 				C1E5572A2BDB2EC400132AB9 /* HealthKitPermissionView.swift in Sources */,
 				C1E5572D2BDB58DE00132AB9 /* HealthKitManager.swift in Sources */,
